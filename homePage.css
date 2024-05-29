@@ -1,0 +1,42 @@
+* {
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#navigation a {
+    width: 50px;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen;
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#navigation a:hover {
+    background-color: lightgray;
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+}
+
+h1 {
+    color:#050505;
+    
+}
+
+img {
+    width: 400px;
+    margin: 20px;
+    
+}
+
+ul {
+    list-style: none;
+}
