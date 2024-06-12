@@ -6,18 +6,70 @@
 
 <head>
     <title>Timothy Parisi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link href="homePage.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 
 <body>
-    <h1>Website Coming Soon!</h1>
+    <div id="navigation">
+        <h1 id="top">Tim Parisi</h1>
+        <a class="a_button" href="./index.html">Home</a>
+        <a class="a_button" href="#about">About</a>
+        <a class="a_button" href="#projects">Projects</a>
+        <a class="a_button" href="#contact">Contact</a>
+    </div>
+
     <div id="about">
-        <h3>Facts About Me:</h3>
-        <ul>
-            <li>Major: Computer Science</li>
-            <li>Minor: Engineering Corporate Practicei</li>
-            <li>Hometown: Pasadena, CA</li>
-        </ul>
-        <h3>Courses I Have Taken:</h3>
+        <table>
+            <tr>
+                <!-- Column 1 -->
+                <th class="format_table">
+                    <img src="./photos/LondonStreet.JPG">
+                    <h2>Programming Languages:</h2></a>
+                    <table>
+                        <tr>
+                            <th>C</th>
+                            <th>C++</th>
+                            <th>Python</th>
+                        </tr>
+                        <tr>
+                            <th>HTML</th>
+                            <th>CSS</th>
+                            <th>Java</th>
+                        </tr>
+                        <tr>
+                            <th>MATLAB</th>
+                            <th>Git</th>
+                            <th>Bash</th>
+                        </tr>
+                    </table>
+                </th>
+                <!-- Column 2 -->
+                <th class="format_table">
+                    <div class="bio">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi! My name is Tim Parisi. I am currently a junior studying Computer Science at the University of Notre Dame.
+                        I have been interested in computer science for years and have significant programming experience. I currently use my skills as a part of the Robotic Football Club
+                        at Notre Dame, where I am the lead programmer and use a combination of Python and Bash scripting to optimize our robots. This has been one of many times
+                        in my life where I have been placed in a brand-new situation and challenged to learn material quickly, and it has made me ready for
+                        any challenge I am faced with in the future. I have taken official courses in Python, MATLAB, Java, Bash scripting, and C, and
+                        I am taking courses such as Intro to AI and Programming Paradigms this Fall to further develop my skills in all languages. 
+                        I also have taken Introduction to Embedded Systems as I work to develop a well-rounded computer science
+                        education. I am eager for more opportunities to showcase and enhance my skills, as well as to contribute to the
+                        successes of a team in a business setting.
+                    </p>
+                </div>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="extra_info">
+
+        <h2>Completed Coursework:</h2>
         <ul>
             <li>Linear Algebra and Intro to Differential Equations</li>
             <li>Discrete Mathematics</li>
@@ -28,15 +80,27 @@
             <li>Logic Design</li>
         </ul>
     </div>
-    <div id="Projects">
-        <h3>Projects:</h3>
-        <nav>
-            <ul>
-                <li><a href="./testproject.html" target="_blank">Test Project</a></li>
-                <li>Album Finder</li>
-                <li>2D Golf Game</li>
-            </ul>
-        </nav>
+    <div id="projects">
+        <h1>Projects:</h1>
+        <table>
+            <tr>
+                <th><a href="./testproject.html">Test Project</a></th>
+                <th>Album Finder</th>
+                <th>2D Golf Game</th>
+            </tr>
+        </table>
+    </div>
+    <div id="footer">
+        <div>
+            <h2 id="contact" class="info">Contact:</h2>
+            <p class="info">
+                <a href="mailto:timothy.parisi72@gmail.com"><img src="./photos/mail.png"></a>
+                <a href="https://www.linkedin.com/in/tim-parisi-888012258/"><img src="./photos/linkedin.png"></a>
+                <a href="https://github.com/tim-parisi"><img src="./photos/github-mark.png"></a>
+                <a href="./resume.pdf"><img src="./photos/document.png"></a>
+            </p>
+        </div>
+        <a class="a_button" href="./index.html">Return to top</a>
     </div>
 </body>
 
